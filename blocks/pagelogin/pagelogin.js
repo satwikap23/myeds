@@ -52,6 +52,6 @@ export default function decorate(block) {
     e.preventDefault();
 
     const data = Object.fromEntries(new FormData(form));
-    console.log('Login submitted', data);
+    // console.log('Login submitted', data);
   });
 }
