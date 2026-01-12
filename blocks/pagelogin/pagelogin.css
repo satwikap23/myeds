@@ -1,0 +1,55 @@
+.pagelogin {
+  max-width: 420px;
+  margin: 80px auto;
+  padding: 32px;
+  background: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+}
+
+.pagelogin-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.pagelogin-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.pagelogin-field label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+}
+
+.pagelogin-field input {
+  padding: 12px 14px;
+  font-size: 14px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.pagelogin-field input:focus {
+  outline: none;
+  border-color: #6c63ff;
+  box-shadow: 0 0 0 2px rgba(108, 99, 255, 0.15);
+}
+
+.pagelogin-form button {
+  margin-top: 10px;
+  padding: 14px;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 10px;
+  border: none;
+  background: #6c63ff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.pagelogin-form button:hover {
+  background: #584ee6;
+}
